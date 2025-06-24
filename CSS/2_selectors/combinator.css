@@ -1,0 +1,19 @@
+#con1{
+    background-color: aqua;
+    height=200px;
+}
+/*1.Decendent selector*/
+#con1 #heading2{
+    color:orange;
+}
+#con1 .Box{
+    background-color: brown;
+    height: 250px;
+}
+/*2.Direct child selector*/
+#con2 >h2{
+    color: green;
+}
+#con2 >.Box>h2{
+    color: blue;
+}

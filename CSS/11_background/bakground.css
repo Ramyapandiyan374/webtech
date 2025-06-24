@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color:  rgba(255, 0, 0,0.2);*/
+    background:linear-gradient(to right,red,yellow,blue) ;
+    /*background-img:linear-gradient(to left,orange,red)*/
+    
+}
+.outer >.inner >h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkmagenta;
+}
+.outer >.inner{
+    height: 400px;
+    width: 600px;
+    border: 2px  solid black;
+    background-color:aquamarine;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVw23rI8Bim9SLpDxrrWMMy4IcaOiAl7v0RA&s");
+    background-repeat: no-repeat;
+    /*background-position: bottom center;*/
+    background-position: center;
+    /*back-ground-size:contain,cover;*/
+    box-shadow: 0px 2px 4px;
+    border-radius: 10px;
+    /*background-repeat: repeat-x;*/
+
+}
+/*colour hunt, coolers-clors getting websites*/

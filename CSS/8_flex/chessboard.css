@@ -1,0 +1,471 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer >.inner{
+    height: 480px;
+    width: 550px;
+    background-color: black;
+    
+    
+}
+.inner >.row1{
+    display: flex;
+    justify-content: center;
+    
+}
+.row1 >.box1{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+     
+}
+.row1 >.box2{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row1 >.box3{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row1 >.box4{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row1 >.box5{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row1 >.box6{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row1 >.box7{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row1 >.box8{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.row2 >.box1{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+     
+}
+.row2 >.box2{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row2 >.box3{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row2 >.box4{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row2 >.box5{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row2 >.box6{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row2 >.box7{
+    background-color: black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row2 >.box8{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row3{
+    display: flex;
+    justify-content: center;
+    
+}
+.row3 >.box1{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+     
+}
+.row3 >.box2{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row3 >.box3{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row3 >.box4{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row3 >.box5{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row3 >.box6{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row3 >.box7{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row3 >.box8{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row4{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.row4 >.box1{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+     
+}
+.row4 >.box2{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row4 >.box3{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row4 >.box4{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row4 >.box5{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row4 >.box6{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row4 >.box7{
+    background-color: black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row4 >.box8{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row5{
+    display: flex;
+    justify-content: center;
+    
+}
+.row5 >.box1{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+     
+}
+.row5 >.box2{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row5 >.box3{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row5 >.box4{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row5 >.box5{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row5 >.box6{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row5 >.box7{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row5 >.box8{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row6{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.row6 >.box1{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+     
+}
+.row6 >.box2{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row6 >.box3{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row6 >.box4{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row6 >.box5{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row6 >.box6{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row6 >.box7{
+    background-color: black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row6 >.box8{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row7{
+    display: flex;
+    justify-content: center;
+    
+}
+.row7 >.box1{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+     
+}
+.row7 >.box2{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row7 >.box3{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row7 >.box4{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row7 >.box5{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row7 >.box6{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row7 >.box7{
+    background-color: white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row7 >.box8{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.inner >.row8{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.row8 >.box1{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+     
+}
+.row8 >.box2{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row8 >.box3{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    display: flex;
+    
+}
+.row8 >.box4{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row8 >.box5{
+    background-color:black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row8 >.box6{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+.row8 >.box7{
+    background-color: black;
+    height: 60px;
+    width: 70px;
+    
+}
+.row8 >.box8{
+    background-color:white;
+    height: 60px;
+    width: 70px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
