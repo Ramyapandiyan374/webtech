@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.outer >.tag1{
+    background-image: url("https://thumbs.dreamstime.com/z/winter-forest-colorful-snowflakes-snow-covered-trees-christmas-lights-wonderland-background-beautiful-new-year-illumination-131611015.jpg?ct=jpeg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.outer >.tag2{
+    background-image: url("https://thumbs.dreamstime.com/b/mystical-forest-blue-fog-autumn-colorful-landscape-beautiful-enchanted-trees-orange-red-leaves-scenery-path-dreamy-128725058.jpg?w=992");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.outer >.tag3{
+    background-image: url("https://thumbs.dreamstime.com/b/waterfall-mountain-river-autumn-forest-sunset-colorful-landscape-beautiful-red-foliage-trees-86088143.jpg?w=992");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.outer >.tag4{
+    background-image: url("https://thumbs.dreamstime.com/b/rural-road-spring-forest-sunrise-country-deciduous-misty-sunny-morning-rising-sun-illuminates-maple-leaves-159519814.jpg?w=992");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
