@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card1{
+    height: 200px;
+    background-color:red ;
+}
+.container >.box{
+    height: 200px;
+    width: 100px;
+    border: 2px solid;
+    
+}
+
+@media (max-width :700px){
+    .card1{
+        background-color: blue;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container >.box{
+        width: 100%;
+    }
+    
+}
