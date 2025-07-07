@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+
+}
+.outer >.inner1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+
+}
+.inner1 >.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    animation:move 2s ease-in infinite alternate;
+
+
+    
+}
+
+.outer >.inner2{
+    
+    
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+.inner2 >.box1{
+    background-color: red;
+    height:100px;
+    width: 100px;
+    position: absolute;
+    animation: rotate 2s ease-in infinite;
+
+    
+}
+.inner2 >.box2{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: rotate 2s ease-in infinite;
+    
+}
+.inner2 >.box3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    animation: rotate 2s ease-in infinite;
+    
+}
+.inner2 >.box4{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    animation: rotate 2s ease-in infinite;
+    
+}
+ @keyframes move{
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(200px,0);
+        border-radius: 50%;
+        background-color: blue;
+    }
+ }
+ @keyframes rotate{
+       from{
+        transform: rotate(0);
+       }
+       to{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        background-color:wheat;
+       }
+ }
+
+
+
+
