@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+width: 100vw;
+    background-color: white;
+    display: flex;
+}
+.outer >.left{
+    background-color:white;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.outer >.right{
+    background-color:blue;
+    flex-basis: 50%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right >.box{
+    height: 400px;
+    width: 450px;
+    border: 2px solid;
+    flex-direction: column;
+    display: flex;
+    padding-left: 40px;
+    border-radius: 20px;
+    
+    
+    background-color: white;
+
+}
+
+.box > input{
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 35px;
+    padding-left: 10px;
+    
+}
+.box >label{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.box >button{
+    background-color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-radius: 20px;
+    width: 360px;
+    font-size: 19px;
+    height: 50px;
+}
+.box >.button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 19px;
+    
+    
+
+}
+.box >.button >a{
+   text-decoration: none;
+}
+.outer >.right >h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+}
